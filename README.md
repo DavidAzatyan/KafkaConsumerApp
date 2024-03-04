@@ -38,8 +38,7 @@ Before you begin, ensure you have the following installed:
 
 1. PostgreSQL Configuration
 
-   1. Create PostgreSQL Database
-      Create a PostgreSQL database for the application:
+   1. Create a PostgreSQL database for the application:
 
       ``` 
        CREATE DATABASE kafka_consumer_db;
@@ -105,7 +104,7 @@ Before you begin, ensure you have the following installed:
      ```json
      {"name": "David", "age": 28, "email": "email@gmail.com"}
      ```
-     It will be concurrently saved in both the `json` and `person` tables.
+     It will be concurrently saved in the both `json` and `person` tables.
 
 3. **Handling Invalid Messages:**
    - If a message is not in JSON format, the application will respond with the following error message:
